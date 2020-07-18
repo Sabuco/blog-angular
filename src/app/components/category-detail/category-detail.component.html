@@ -1,0 +1,20 @@
+<div class="loading" *ngIf="!category">
+    Cargando...
+</div>
+
+<div class="container-fluid mt-3" *ngIf="category">
+    <h1>{{category.name}}</h1>
+    <hr>
+    <!-- Carga para posts si no estan disponibles -->
+    <div class="loading" *ngIf="!posts">
+        Cargando listado...
+    </div>
+
+    <!-- Si estan disponibles se muestran -->
+    <div class="master-card" *ngIf="posts">
+        <!--Listado de entradas-->
+        <post-list [posts]="posts"
+                   [identity]="identity"
+                   [url]="url"></post-list>
+    </div>
+</div>
