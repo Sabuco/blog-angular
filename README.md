@@ -1,6 +1,6 @@
 # BlogAngular
 
-Visit https://blog-angular-laravel.herokuapp.com/ to see complete app.
+<h3>Visita https://blog-angular-laravel.herokuapp.com/ para ver y probar la aplicación.</h3>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
